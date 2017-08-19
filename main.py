@@ -9,7 +9,6 @@ from kivy.properties import ObjectProperty
 from pages import rssPage
 from pages import clockPage
 from pages import weatherPage
-from pages import calendarPage
 
 class RaspiRoot(BoxLayout):
     carousel = ObjectProperty()
