@@ -1,0 +1,72 @@
+RaspiRoot:
+
+<RaspiRoot>:
+    carousel: carousel
+    Carousel:
+        id: carousel
+        loop: True
+        ClockPage:
+        RssPage:
+        WeatherPage:
+
+<RssPage>:
+    orientation: "vertical"
+    rss_label: rss_label
+    Label:
+        id: rss_label
+        text_size: self.size
+        halign: "center"
+        valign: "middle"
+        font_size: 52
+        font_name: "Arial"
+
+<ClockPage>:
+    orientation: "vertical"
+    clock_label: clock_label
+    Label:
+        id: clock_label
+        text_size: self.size
+        halign: "center"
+        valign: "middle"
+        font_name: "Arial"
+
+<WeatherPage>:
+    orientation: "vertical"
+    conditions_label: conditions_label
+    temp_label: temp_label
+    wind_label: wind_label
+    conditions_image: conditions_image
+    Image:
+        id: conditions_image
+    Label:
+        id: conditions_label
+        text_size: self.size
+        halign: "center"
+        valign: "middle"
+        font_size: 52
+        font_name: "Arial"
+    Label:
+        id: temp_label
+        text_size: self.size
+        halign: "center"
+        valign: "middle"
+        font_size: 52
+        font_name: "Arial"
+    Label:
+        id: wind_label
+        text_size: self.size
+        halign: "center"
+        valign: "middle"
+        font_size: 52
+        font_name: "Arial"
+
+<CalendarPage>:
+    orientation: "vertical"
+    calendar_label: calendar_label
+    Label:
+        id: calendar_label
+        text_size: self.size
+        halign: "center"
+        valign: "middle"
+        font_size: 54
+        font_name: "Arial"
