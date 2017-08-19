@@ -39,7 +39,7 @@ $ git clone git://github.com/srydell/raspiMirror.git
 
 Change directory and read exampleSecret.txt. You will need to add you API key from openweathermaps and your location in a new file called "secret.txt".
 
-Change directory and start the program. How to run a kivy program is different for Mac/(linux/windows) users.
+How to run a kivy program is different for Mac/(linux/windows) users.
 
 For Mac users:
 
@@ -52,3 +52,5 @@ For linux/windows users:
 ```
 $ python main.py
 ```
+
+Good luck!
