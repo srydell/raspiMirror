@@ -27,7 +27,7 @@ To install the Google API run this in your shell:
 $ kivy -m pip install --upgrade google-api-python-client
 ```
 
-You will also need a free API key from [openweathermaps](htts://openweathermap.org/api).
+You will also need a free API key from [openweathermaps](https://openweathermap.org/api).
 
 ### Installing
 
