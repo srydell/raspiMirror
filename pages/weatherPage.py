@@ -55,7 +55,7 @@ class WeatherPage(BoxLayout):
         # Parse the temperature
         # Round to one decimal and add degree symbol
         t = round(data["main"]["temp"], 1)
-        t = "{} {}C".format(t, u"\u00b0")
+        t = "{} {}C".format(t, u"\u00b0".encode("utf-8"))
         self.temp = t
 
         # Parse the wind speed
