@@ -21,12 +21,6 @@ Assuming you have installed kivy it is now time to get the dependencies. The fee
 $ kivy -m pip install feedparser
 ```
 
-To install the Google API run this in your shell:
-
-```
-$ kivy -m pip install --upgrade google-api-python-client
-```
-
 You will also need a free API key from [openweathermaps](https://openweathermap.org/api).
 
 ### Installing
