@@ -2,9 +2,9 @@
 
 This is a small hardware/software project to get a somewhat smart desk gadget. It will be a screen with a number of pages that can be navigated by swiping your hand through the air. The hand movements will be captured using two IR sensors.
 
-Clock                      |  RSS feed
-:-------------------------:|:-------------------------:
-![](./photos/clockPage.png)|  ![](./photos/rssPage.png)
+Clock                      |  RSS feed                 |  Weather
+:-------------------------:|:-------------------------:|:-------------------------:
+![](./photos/clockPage.png)|  ![](./photos/rssPage.png)|  ![](./photos/weatherPage.png)
 
 ## Getting Started
 
