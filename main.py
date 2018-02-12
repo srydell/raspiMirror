@@ -14,8 +14,8 @@ class RaspiRoot(BoxLayout):
     carousel = ObjectProperty()
 
     # How often each page is updated in seconds
-    # [clock, rss, weather, calendar]
-    updateTimes = [1, 10, 120, 3600]
+    # [clock, rss, weather]
+    updateTimes = [1, 10, 120]
 
     # Current page number
     pageNr = 0
@@ -42,6 +42,8 @@ class RaspiRoot(BoxLayout):
         # TODO: Change to the right slide when
         # the two sensors are triggered
         # Clock.schedule_interval(self.swipeRight, 3)
+
+        print("hi")
 
     # The dt is for testing purpose only,
     # remove when sensors are installed
